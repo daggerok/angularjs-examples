@@ -1,0 +1,5 @@
+= angularjs-examples image:https://travis-ci.org/daggerok/angularjs-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/angularjs-examples"]
+
+This repository contains AngularJS playground projects examples.
+
+. link:webpack1/[AngularJS 1.6, Webpack 1, ES2015+]
