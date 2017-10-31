@@ -74,10 +74,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daggerok/angularjs.git"
+    "url": "git+https://github.com/daggerok/angularjs-examples.git"
   },
   "bugs": {
-    "url": "https://github.com/daggerok/angularjs/issues"
+    "url": "https://github.com/daggerok/angularjs-examples/issues"
   },
-  "homepage": "https://github.com/daggerok/angularjs#readme"
+  "homepage": "https://github.com/daggerok/angularjs-examples#readme"
 }
