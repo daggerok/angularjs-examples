@@ -3,7 +3,7 @@
 ## before script do next:
 # cd /tmp
 # mkdir clean-dir; cd clean-dir/
-# git remote add origin git@github.com:daggerok/angularjs-examples.git
+# git init; git remote add origin git@github.com:daggerok/angularjs-examples.git
 # git checkout -b gh-pages
 # echo "# github pages branch" > README.md
 # git add README.md
