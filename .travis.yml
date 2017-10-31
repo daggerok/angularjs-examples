@@ -23,7 +23,8 @@ script:
   - export root=$(pwd)
   - >
     for project in \
-      webpack1 \
+      angularjs-bower \
+      angularjs-webpack1 \
     ; do
 
       cd $root/$project

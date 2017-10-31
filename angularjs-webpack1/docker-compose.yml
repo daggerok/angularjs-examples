@@ -6,7 +6,7 @@ services:
     image: nginx:1.12.2-alpine
     volumes:
       - ./dist:/usr/share/nginx/html:ro
-      - app-data:/usr/share/nginx
+      - namespace-data:/usr/share/nginx
     ports: ["80:80"]
     networks: [angularjs-network]
 #    healthcheck:

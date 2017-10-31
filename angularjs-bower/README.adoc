@@ -1,0 +1,8 @@
+# angularjs-bower image:https://travis-ci.org/daggerok/angularjs-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/angularjs-examples"]
+
+json-server, webpack, proxy-api, api-fallback, babel.js, angular 1.5+, ui-router, bootstrap, stylus, production-ready
+
+```bash
+yarn -i
+yarn start
+```

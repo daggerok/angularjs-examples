@@ -12,7 +12,7 @@ const exclude = /(node_modules|bower_components)/;
 
 export default {
   entry: {
-    app: './src/app.js'
+    app: './src/namespace.js'
   },
 
   output: {
@@ -105,8 +105,8 @@ export default {
   plugins: [
     new ExtractPlugin('[name].css', { allChunks: true }),
     new HtmlWebpackPlugin({
-      template: './src/app.html',
-      favicon: './src/app.ico'
+      template: './src/namespace.html',
+      favicon: './src/namespace.ico'
     }),
     new webpack.ProvidePlugin({
       jQuery: 'jquery',

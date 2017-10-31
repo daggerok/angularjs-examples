@@ -1,0 +1,23 @@
+version: "2.1"
+
+services:
+
+  app:
+    image: nginx:1.12.2-alpine
+    volumes:
+      - ./app:/usr/share/nginx/html:ro
+      - app-data:/usr/share/nginx
+    ports: ["80:80"]
+    networks: [angularjs-network]
+#    healthcheck:
+##      test: ["CMD-SHELL", "wget -qs http://127.0.0.1/ || exit 1"]
+#      test: ["CMD", "wget -qs http://127.0.0.1/ || exit 1"]
+#      timeout: 5s
+#      retries: 5
+
+volumes:
+  app-data:
+
+networks:
+  angularjs-network:
+    driver: bridge
