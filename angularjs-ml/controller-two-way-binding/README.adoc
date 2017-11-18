@@ -1,0 +1,6 @@
+= angularjs-examples image:https://travis-ci.org/daggerok/angularjs-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/angularjs-examples"]
+
+.using ng-controller and ng-model
+----
+yarn start
+----
