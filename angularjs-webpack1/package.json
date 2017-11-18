@@ -70,7 +70,7 @@
   ],
   "main": "index.js",
   "author": "daggerok",
-  "description": "json-server, webpack, proxy-api, api-fallback, babel.js, angular 1.5+, ui-router, bootstrap, stylus, production-ready",
+  "description": "angular 1.x",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -79,5 +79,5 @@
   "bugs": {
     "url": "https://github.com/daggerok/angularjs-examples/issues"
   },
-  "homepage": "https://daggerok.github.io/angularjs-examples#readme"
+  "homepage": "https://daggerok.github.io/angularjs-examples"
 }
