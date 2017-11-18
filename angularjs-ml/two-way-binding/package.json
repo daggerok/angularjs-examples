@@ -15,7 +15,7 @@
     "serve": "6.4.1"
   },
   "scripts": {
-    "prestart": "yarn -i",
+    "prestart": "npm i --no-optional",
     "start": "npm-run-all -p start:*",
     "start:serve": "serve -S -p 3000 .",
     "start:livereload": "livereload"

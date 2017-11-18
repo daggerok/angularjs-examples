@@ -1,6 +1,6 @@
 = angularjs-examples image:https://travis-ci.org/daggerok/angularjs-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/angularjs-examples"]
 
-.using ng-app (data-ng-app)
+.using ng-model (two way binding)
 ----
 yarn start
 ----
