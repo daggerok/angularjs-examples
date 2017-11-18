@@ -3,4 +3,5 @@
 This repository contains AngularJS playground projects examples.
 
 . link:angularjs-webpack1/[AngularJS 1.6, Webpack 1, ES2015+]
-. link:angularjs-bower/[AngularJS 1.6 without bundling]
+. link:angularjs-bower/[AngularJS 1.6 without bundling (bower)]
+. link:angularjs-ml/[AngularJS 1.6 without bundling (npm)]
