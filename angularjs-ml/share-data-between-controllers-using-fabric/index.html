@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" ng-app="ml-app">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Angular JS | ML</title>
+  <link rel="stylesheet" href="node_modules/angular/angular-csp.css">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <p>update independently:</p>
+  <p ng-controller="firstCtrl as vm">
+    <input type="text" ng-model="vm.first">
+    1st ctrl: {{ vm.first }}!
+  </p>
+  <p ng-controller="secondCtrl as vm">
+    <input type="text" ng-model="vm.second">
+    2nd ctrl: {{ vm.second }}!
+  </p>
+  <p>update together:</p>
+  <p ng-controller="firstCtrl as vm">
+    <input type="text" ng-model="vm.shareFactory.data">
+    1st ctrl: {{ vm.shareFactory.data }}!
+  </p>
+  <p ng-controller="secondCtrl as vm">
+    <input type="text" ng-model="vm.shareFactory.data">
+    2nd ctrl: {{ vm.shareFactory.data }}!
+  </p>
+<script src="node_modules/angular/angular.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
